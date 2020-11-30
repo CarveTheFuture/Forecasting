@@ -19,13 +19,11 @@ Shown below are the details of the dataframe containing the dataset.
 class 'pandas.core.frame.DataFrame'>
 103150 entries, 0 to 20629
 Data columns (total 28 columns):
-| 0            | unit        | number      |        |
+|column index  | description |             |        |
 |--------------|-------------|-------------|--------|
-|              |             |             |        |
+| 0            | unit        | number      |        |
 | 1            | time,       | in          | cycles |
-|              |             |             |        |
 | 2            | operational | setting     | 1      |
-|              |             |             |        |
 | 3            | operational | setting     | 2      |
 | 4            | operational | setting     | 3      |
 | 5            | sensor      | measurement | 1      |
