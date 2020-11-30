@@ -26,34 +26,52 @@ Shown below are the details of the dataframe containing the dataset.
 class 'pandas.core.frame.DataFrame'>
 Int64Index: 103150 entries, 0 to 20629
 Data columns (total 28 columns):
- #   Column                  Non-Null Count   Dtype  
----  ------                  --------------   -----  
- 0   unit number             103150 non-null  object 
- 1   time, in cycles         103150 non-null  object 
- 2   operational setting 1   103150 non-null  float64
- 3   operational setting 2   103150 non-null  float64
- 4   operational setting 3   103150 non-null  float64
- 5   sensor measurement  1   103150 non-null  float64
- 6   sensor measurement  2   103150 non-null  float64
- 7   sensor measurement  3   103150 non-null  float64
- 8   sensor measurement  4   103150 non-null  float64
- 9   sensor measurement  5   103150 non-null  float64
- 10  sensor measurement  6   103150 non-null  float64
- 11  sensor measurement  7   103150 non-null  float64
- 12  sensor measurement  8   103150 non-null  float64
- 13  sensor measurement  9   103150 non-null  float64
- 14  sensor measurement  10  103150 non-null  float64
- 15  sensor measurement  11  103150 non-null  float64
- 16  sensor measurement  12  103150 non-null  float64
- 17  sensor measurement  13  103150 non-null  float64
- 18  sensor measurement  14  103150 non-null  float64
- 19  sensor measurement  15  103150 non-null  float64
- 20  sensor measurement  16  103150 non-null  float64
- 21  sensor measurement  17  103150 non-null  object 
- 22  sensor measurement  18  103150 non-null  object 
- 23  sensor measurement  19  103150 non-null  float64
- 24  sensor measurement  20  103150 non-null  float64
- 25  sensor measurement  21  103150 non-null  float64
- 26  sensor measurement  22  0 non-null       float64
- 27  sensor measurement  23  0 non-null       float64
-dtypes: float64(24), object(4)
+| 0            | unit        | number      |        |
+|--------------|-------------|-------------|--------|
+|              |             |             |        |
+| 1            | time,       | in          | cycles |
+|              |             |             |        |
+| 2            | operational | setting     | 1      |
+|              |             |             |        |
+| 3            | operational | setting     | 2      |
+| 4            | operational | setting     | 3      |
+| 5            | sensor      | measurement | 1      |
+| 6            | sensor      | measurement | 2      |
+| 7            | sensor      | measurement | 3      |
+| 8            | sensor      | measurement | 4      |
+| 9            | sensor      | measurement | 5      |
+| 10           | sensor      | measurement | 6      |
+| 11           | sensor      | measurement | 7      |
+| 12           | sensor      | measurement | 8      |
+| 13           | sensor      | measurement | 9      |
+| 14           | sensor      | measurement | 10     |
+| 15           | sensor      | measurement | 11     |
+| 16           | sensor      | measurement | 12     |
+| 17           | sensor      | measurement | 13     |
+| 18           | sensor      | measurement | 14     |
+| 19           | sensor      | measurement | 15     |
+| 20           | sensor      | measurement | 16     |
+| 21           | sensor      | measurement | 17     |
+| 22           | sensor      | measurement | 18     |
+| 23           | sensor      | measurement | 19     |
+| 24           | sensor      | measurement | 20     |
+| 25           | sensor      | measurement | 21     |
+| 26           | sensor      | measurement | 22     |
+| 27           | sensor      | measurement | 23     |
+| float64(24), |             |             |        |
+|              |             |             |        |
+|              |             |             |        |
+|              |             |             |        |
+|              |             |             |        |
+|              |             |             |        |
+|              |             |             |        |
+|              |             |             |        |
+|              |             |             |        |
+|              |             |             |        |
+|              |             |             |        |
+|              |             |             |        |
+|              |             |             |        |
+|              |             |             |        |
+|              |             |             |        |
+|              |             |             |        |
+|              |             |             |        |
