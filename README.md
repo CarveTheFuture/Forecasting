@@ -61,3 +61,14 @@ The following columns, upon closer examination were found to contain a single li
 
 | 26           | sensor      | measurement | 22     |
 | 27           | sensor      | measurement | 23     |
+
+A null check was performed. As shown there were no individual null values. Those only occured for the entire column, as described earlier.
+https://github.com/CarveTheFuture/Forecasting/blob/main/Charts/Null_Check.png
+
+
+A correlation matrix was charted as shown below:
+https://github.com/CarveTheFuture/Forecasting/blob/main/Charts/Correlation_Plot.png
+
+Sensors 1-4 raw data are plotted
+https://github.com/CarveTheFuture/Forecasting/blob/main/Charts/Sensors%201-4.png
+
