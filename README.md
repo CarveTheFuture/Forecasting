@@ -97,10 +97,15 @@ The next steps are
                                 ARIMA Model Results                                
 ===================================================================================
 Dep. Variable:     D.sensor measurement  2   No. Observations:               103149
+
 Model:                      ARIMA(5, 1, 0)   Log Likelihood              -39498.414
+
 Method:                            css-mle   S.D. of innovations              0.355
+
 Date:                     Wed, 02 Dec 2020   AIC                          79014.827
+
 Time:                             03:46:07   BIC                          79100.723
+
 Sample:                                  1   HQIC                         79040.858
                                                                                    
 =================================================================================================
@@ -117,4 +122,4 @@ ar.L5.D.sensor measurement  2    -0.1025      0.003    -33.077      0.000      -
                                     Roots                                    
 
 References
-
+https://machinelearningmastery.com/arima-for-time-series-forecasting-with-python/
