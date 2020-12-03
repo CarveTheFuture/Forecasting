@@ -116,6 +116,24 @@ Method:                            css-mle   S.D. of innovations              0.
 | ar.L5.D.sensor measurement | 2 | -0.1025   | 0.003   | -33.077  | 0       | -0.109 | -0.096 |
 
                                                                         
+|                                | ARIMA Model Results      |                     |             |         |          |        |   |
+|--------------------------------|--------------------------|---------------------|-------------|---------|----------|--------|---|
+|                                |                          |                     |             |         |          |        |   |
+| Dep. Variable:                 | D2.sensor measurement  9 | No. Observations:   | 103148      |         |          |        |   |
+| Model:                         | ARIMA(5, 2, 0)           | Log Likelihood      | -362710.719 |         |          |        |   |
+| Method:                        | css-mle                  | S.D. of innovations | 8.145       |         |          |        |   |
+|                                |                          |                     |             |         |          |        |   |
+|                                | coef                     | std err             | z           | P>\|z\| | [0.025   | 0.975] |   |
+|                                |                          |                     |             |         |          |        |   |
+| const                          | 0.0004                   | 0.006               | 0.066       | 0.948   | -0.011   | 0.012  |   |
+| operational setting 1          | 20.7952                  | 5.858               | 3.55        | 0       | 9.315    | 32.276 |   |
+| operational setting 2          | -91.9411                 | 42.19               | -2.179      | 0.029   | -174.633 | -9.25  |   |
+| ar.L1.D2.sensor measurement  9 | -1.1225                  | 0.003               | -367.376    | 0       | -1.129   | -1.117 |   |
+| ar.L2.D2.sensor measurement  9 | -0.9606                  | 0.004               | -216.928    | 0       | -0.969   | -0.952 |   |
+| ar.L3.D2.sensor measurement  9 | -0.7191                  | 0.005               | -148.199    | 0       | -0.729   | -0.71  |   |
+| ar.L4.D2.sensor measurement  9 | -0.4481                  | 0.004               | -101.184    | 0       | -0.457   | -0.439 |   |
+| ar.L5.D2.sensor measurement  9 | -0.1925                  | 0.003               | -62.994     | 0       | -0.198   | -0.186 |   |
+
 
 References
 https://machinelearningmastery.com/arima-for-time-series-forecasting-with-python/
