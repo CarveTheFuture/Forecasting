@@ -115,7 +115,13 @@ Method:                            css-mle   S.D. of innovations              0.
 | ar.L4.D.sensor measurement | 2 | -0.2224   | 0.004   | -59.302  | 0       | -0.23  | -0.215 |
 | ar.L5.D.sensor measurement | 2 | -0.1025   | 0.003   | -33.077  | 0       | -0.109 | -0.096 |
 
-                                    Roots                                    
+                                                                        
 
 References
 https://machinelearningmastery.com/arima-for-time-series-forecasting-with-python/
+[1] Predictive Maintenance For Enhanced Asset Operation
+https://www.intel.com/content/www/us/en/manufacturing/solutions/predictive-maintenance-and-asset-optimization.html
+[2] Predictive Maintenance Drives Smarter Fleet Management
+https://www.intel.com/content/www/us/en/internet-of-things/solution-briefs/predictive-maintenance-fleet-management-brief.html
+[3] NASA TurboFan dataset
+https://ti.arc.nasa.gov/tech/dash/groups/pcoe/prognostic-data-repository/#turbofan
