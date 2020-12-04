@@ -136,10 +136,29 @@ Method:                            css-mle   S.D. of innovations              0.
 
 
 References
-https://machinelearningmastery.com/arima-for-time-series-forecasting-with-python/
-[1] Predictive Maintenance For Enhanced Asset Operation
+https://machinelearningmastery.com/arima-for-time-series-forecasting-with-python/  
+
+
+ Predictive Maintenance For Enhanced Asset Operation  
 https://www.intel.com/content/www/us/en/manufacturing/solutions/predictive-maintenance-and-asset-optimization.html
-[2] Predictive Maintenance Drives Smarter Fleet Management
+
+Predictive Maintenance Drives Smarter Fleet Management  
 https://www.intel.com/content/www/us/en/internet-of-things/solution-briefs/predictive-maintenance-fleet-management-brief.html
-[3] NASA TurboFan dataset
-https://ti.arc.nasa.gov/tech/dash/groups/pcoe/prognostic-data-repository/#turbofan
+
+NASA TurboFan dataset  
+https://ti.arc.nasa.gov/tech/dash/groups/pcoe/prognostic-data-repository/#turbofan  
+
+ARIMA grid search
+https://machinelearningmastery.com/grid-search-arima-hyperparameters-with-python/  
+
+ARIMA sample forecasts
+https://machinelearningmastery.com/make-sample-forecasts-arima-python/  
+
+ARIMA hyperparameter optimization
+https://machinelearningmastery.com/arima-for-time-series-forecasting-with-python/  
+
+
+
+
+
+
