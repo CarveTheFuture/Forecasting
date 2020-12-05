@@ -134,13 +134,15 @@ Assessing and interpreting results
 One of the intended activities was to understand the natural "clustering" of the end-points and relate that to the operational setttings
 Also, intended was to perhaps add the unit number as an exogenous variable
 
-In any case a prediction was developed by supplying the original input data.
+In any case, for sensor measurement 4, a prediction was developed by supplying the original input data.
 The prediction was superimposed on the actual data. 
 
 ![](Charts/PredictedVersusActualResults.png)
 https://github.com/CarveTheFuture/Forecasting/blob/main/Charts/PredictedVersusActualResults.png
 
-The match was not very good, and needs to be improved.
+The shape of the predicted data has some similarity to the origina. However, the model needs to be improved.
+Next steps would be to review the differencing and inverting steps.
+
 
 References
 https://machinelearningmastery.com/arima-for-time-series-forecasting-with-python/  
