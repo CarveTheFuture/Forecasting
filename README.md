@@ -52,8 +52,7 @@ Data columns (total 28 columns):
 
 As shown above, the first column was elapsed cycles in seconds.
 
-The next 3 columns represented:
-The varied operational settings
+The next 3 columns represented the varied operational settings
 
 The last 23 columns represented the sensor measurements.
 The following columns, upon closer examination were found to contain a single line or null values
@@ -88,11 +87,8 @@ I ran an ARIMA model on sensor measurement 2 and obtained good p-values for each
 I then tried to use the operational settings as exogenous variables. For sensor 3, the model complained that it was a constant. 
 So I removed it. For sensor 1, the p-value was .089 and for sensor 2 the p-value was 0.011.
 
-The next steps are 
-1. to run the ARIMA modeling on all the sensor measurements.
-2. Try to understand the natural "clustering" of the end-points and relate that to the operational setttings
-3. Perhaps add the unit number as an exogenous variable
-4. Assess and interpret results
+The next steps was to run the ARIMA modeling on all the sensor measurements.
+Shown below are the results from two sensors.
 
                                 ARIMA Model Results                                
 ===================================================================================
@@ -134,6 +130,14 @@ Method:                            css-mle   S.D. of innovations              0.
 | ar.L4.D2.sensor measurement  9 | -0.4481                  | 0.004               | -101.184    | 0       | -0.457   | -0.439 |   |
 | ar.L5.D2.sensor measurement  9 | -0.1925                  | 0.003               | -62.994     | 0       | -0.198   | -0.186 |   |
 
+Assessing and interpreting results
+One of the intended activities was to understand the natural "clustering" of the end-points and relate that to the operational setttings
+Also, intended was to perhaps add the unit number as an exogenous variable
+
+In any case a prediction was developed by supplying the original input data.
+The prediction was superimposed on the actual data. 
+
+The match was not very good, and needs to be improved.
 
 References
 https://machinelearningmastery.com/arima-for-time-series-forecasting-with-python/  
