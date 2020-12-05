@@ -137,6 +137,9 @@ Also, intended was to perhaps add the unit number as an exogenous variable
 In any case a prediction was developed by supplying the original input data.
 The prediction was superimposed on the actual data. 
 
+![](Charts/PredictedVersusActualResults.png)
+https://github.com/CarveTheFuture/Forecasting/blob/main/Charts/PredictedVersusActualResults.png
+
 The match was not very good, and needs to be improved.
 
 References
